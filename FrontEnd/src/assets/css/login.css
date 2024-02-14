@@ -1,0 +1,136 @@
+.wrapper__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh ;
+  width: 90vh;
+  background-color: #8e5306d6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border-radius: 0 20px 20px 0;
+  
+  
+}
+.p_container{
+ 
+  display: flex;
+  justify-content: center;
+  background:
+		  radial-gradient(50% 50% at 100% 0,#E4E4ED 0%  5% ,#B1E5DC 6%  15%,#E4E4ED 16% 25%,#B1E5DC 26% 35%,#E4E4ED 36% 45%,
+		   #B1E5DC 46% 55%,#E4E4ED 56% 65%,#B1E5DC 66% 75%,#E4E4ED 76% 85%,#B1E5DC 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50% at 0 100%,#E4E4ED 0%  5% ,#B1E5DC 6%  15%,#E4E4ED 16% 25%,#B1E5DC 26% 35%,#E4E4ED 36% 45%,
+		   #B1E5DC 46% 55%,#E4E4ED 56% 65%,#B1E5DC 66% 75%,#E4E4ED 76% 85%,#B1E5DC 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50%,#E4E4ED 0%  5% ,#B1E5DC 6%  15%,#E4E4ED 16% 25%,#B1E5DC 26% 35%,#E4E4ED 36% 45%,
+		   #B1E5DC 46% 55%,#E4E4ED 56% 65%,#B1E5DC 66% 75%,#E4E4ED 76% 85%,#B1E5DC 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50%,#E4E4ED 0%  5% ,#B1E5DC 6%  15%,#E4E4ED 16% 25%,#B1E5DC 26% 35%,#E4E4ED 36% 45%,
+		   #B1E5DC 46% 55%,#E4E4ED 56% 65%,#B1E5DC 66% 75%,#E4E4ED 76% 85%,#B1E5DC 86% 95%,
+		   #0000 96%) 32px 32px;
+	background-size: 64px 64px;
+	background-color: #E4E4ED;
+  height: 100vh;
+ 
+  
+ 
+
+  
+}
+.c1{
+      width: 90vh;
+      height: 80vh;
+      background-image: url("https://images.pexels.com/photos/4114585/pexels-photo-4114585.jpeg?auto=compress&cs=tinysrgb&w=600");
+      border-radius: 20px 0 0 20px;
+      background-repeat: no-repeat;
+
+}
+.c_container{
+  width: 80vh;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  margin-top: 10vh;
+  border-radius: 20px;
+  
+ 
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 25% 10%;
+  padding: 40px;
+  width: 300px;
+  
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bolder;
+}
+
+input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #080808;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.error {
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.sbButton {
+  background-color: #1c90de;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0px !important;
+}
+
+.loginField{
+  margin: 10px 0px;;
+}
+
+button:hover {
+  background-color: #0c7eca;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #050404;
+  font-size: 14px;
+}
+
+Link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+Link:hover {
+  text-decoration: underline;
+}

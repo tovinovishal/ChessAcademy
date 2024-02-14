@@ -1,0 +1,37 @@
+.par_class{
+    height: 100vh;
+    background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.profile__head{
+    margin-top: 30px;
+    margin-left:46% ;
+    
+    
+}
+.profile__container{
+    margin-top: 20px; 
+
+}
+.profile__para{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+.underline{
+    border: 1px solid black;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px;
+    
+}
+.pa_un{
+    display: flex;
+    justify-content: center;
+    
+}

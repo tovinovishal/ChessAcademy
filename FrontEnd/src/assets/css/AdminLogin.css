@@ -1,0 +1,127 @@
+.wrapper__adminlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh ;
+    width: 90vh;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
+    
+    
+  }
+  .pa_container{
+   
+    display: flex;
+    justify-content: center;
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#1821c6 0.8px, #c0c0d7 0.5px);
+    background-size: 10px 10px;
+    height: 100vh;
+    
+   
+  
+    
+  }
+  .c11{
+        width: 90vh;
+        height: 80vh;
+        background-image: url("https://images.pexels.com/photos/8957361/pexels-photo-8957361.jpeg?auto=compress&cs=tinysrgb&w=600");
+        border-radius: 20px 0 0 20px;
+        background-repeat: no-repeat;
+  
+  }
+  .ch_container{
+    width: 80vh;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    margin-top: 10vh;
+    border-radius: 20px;
+    
+   
+  }
+  
+  .forms {
+    background-color: #fff;
+    border-radius: 25% 10%;
+    padding: 50px;
+    width: 300px;
+    
+  }
+  
+  .heading1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bolder;
+  }
+  
+  input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #080808;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: #e74c3c;
+    margin-bottom: 20px;
+  }
+  
+  .sbpButton {
+    background-color: #0a4268;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0px !important;
+  }
+  
+  .loginField{
+    margin: 10px 0px;;
+  }
+  
+  button:hover {
+    background-color: #0c7eca;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    color: #050404;
+    font-size: 14px;
+  }
+  
+  Link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+  }
+  

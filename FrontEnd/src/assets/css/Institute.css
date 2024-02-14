@@ -1,0 +1,23 @@
+.wholepage{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+.course_details{
+   
+    margin-top: 50px;
+    margin-left:auto; 
+    display: flex;
+    height: 50vh;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+    
+    
+}
+.cardspace{
+    width: 20%;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  margin: 2rem;
+}
